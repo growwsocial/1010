@@ -1,0 +1,41 @@
+ .custom-btn {
+    border-radius: 30px;
+    background: red !important;
+}
+    .tran-btn {
+    border-radius: 30px;
+    background: rgba(255, 0, 0, 0.25) !important;
+    border: 3px solid red !important;
+}
+    
+    .col-lg-5 {
+    position: relative;
+    width: 100%;
+}
+
+.main-img {
+    position: relative;
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1202px) {
+    .main-img {
+        position: absolute;
+        max-width: 1700px; 
+        top: -260px;
+        left: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-img {
+        position: relative;
+        max-width: 350px;
+        top: -50px;
+        left: 20px;
+        display: none;
+    }
+}
